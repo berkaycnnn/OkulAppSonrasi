@@ -3,6 +3,8 @@ using System;
 using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
 using DAL;
+using System.Text;
+using System.Collections.Generic;
 
 namespace OkulApp.BLL
 {

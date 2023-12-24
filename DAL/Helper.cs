@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Reflection;
 using System.Configuration;
-
 namespace DAL
 {
     public class Helper
@@ -18,13 +18,12 @@ namespace DAL
                     if (p != null)
                     {
                         cmd.Parameters.AddRange(p);
+
                     }
                     cn.Open();
                     return cmd.ExecuteNonQuery();
                 }
             }
         }
-
-
     }
 }

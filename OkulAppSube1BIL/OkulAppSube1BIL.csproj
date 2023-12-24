@@ -67,11 +67,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmOgrKayit.resx">
-      <DependentUpon>frmOgrKayit.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmOgrtKayit.resx">
       <DependentUpon>frmOgrtKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrKayit.resx">
+      <DependentUpon>frmOgrKayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
